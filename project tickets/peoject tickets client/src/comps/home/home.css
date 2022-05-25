@@ -1,0 +1,60 @@
+.strip h1 {
+    color: #131313;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: .1em;
+    font-size: 5.4em;
+    margin-bottom: 60px;
+    color: rgba(0, 0, 0, .6);
+    text-shadow: 3px 2px 3px rgba(255, 255, 255, .2);
+}
+
+.categoriesHome .box {
+    min-height: 300px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    transition: 800ms;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.categoriesHome .box:hover {
+    transform: scale(0.9, 0.9);
+}
+
+.title-cat {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.categoriesHome .box h3 {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.749);
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    color: white;
+    border-radius: 0 0 15px 15px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.ticket-box {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.ticket-box div {
+    border-radius: 20px;
+}
+
+.ticket-box .bg-div {
+    border-radius: 20px 20px 0 0;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+
+.categoriesHome.ticketsHome {
+    background: #f1f1f1;
+}
